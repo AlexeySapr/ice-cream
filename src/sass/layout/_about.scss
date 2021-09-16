@@ -27,7 +27,7 @@
     position: absolute;
     content: '';
     display: inline-flex;
-    background-image: url(../images/milk-mobile1x.png);
+    background-image: url(../images/about/milk-mobile1x.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -41,7 +41,7 @@
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-        background-image: url(../images/milk-mobile2x.png);
+        background-image: url(../images/about/milk-mobile2x.png);
       }
     }
 
@@ -51,13 +51,13 @@
     @media screen and(min-width:1280px) {
       display: block;
 
-      background-image: url(../images/milk-desktop1x.png);
+      background-image: url(../images/about/milk-desktop1x.png);
       bottom: -22%;
 
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-        background-image: url(../images/milk-desktop2x.png);
+        background-image: url(../images/about/milk-desktop2x.png);
       }
     }
   }
@@ -288,22 +288,6 @@
   padding: 20px 30px;
 }
 
-// .about__img-milk {
-//   position: absolute;
-//   bottom: 10%;
-//   width: 100%;
-
-//   @media screen and(min-width:768px) {
-//     display: none;
-//   }
-
-//   @media screen and(min-width:1280px) {
-//     display: block;
-//     bottom: -5%;
-//     pointer-events: none;
-//   }
-// }
-
 .about__wrap {
   @media screen and(min-width:768px) {
     display: flex;
@@ -328,6 +312,5 @@
   @media screen and(min-width:1280px) {
     margin-left: 74px;
     margin-top: 0;
-    // padding: 0;
   }
 }
