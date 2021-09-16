@@ -1,147 +1,106 @@
 .customer-reviews__img-girls {
-    margin-left: auto;
-    margin-right: auto;
-        display: block;
-    width: 85px;
-    height: 85px;
-}  
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 85px;
+  height: 85px;
+}
 
-// .customer-reviews__feedback-icon {
-//     width: 85px;
-//     height: 85px;
-//     position: absolute;
-//     top: -13px;
-//     left: 40px;
-//     z-index: 0;
-// }
+.customer-reviews__block {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 
-.customer-reviews__block { 
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+  width: 280px;
+  background-color: #fafafa;
 
-    width: 280px;
-    background-color: #fafafa;
-
-   @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     width: 620px;
-   } 
+  }
 
-   @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     width: 926px;
-   }
+  }
 }
 
 .customer-reviews__text {
-padding: 40px 80px;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 255%;
-text-align: center;
-color: #000000;
-z-index: 50;
+  padding: 40px 80px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 255%;
+  text-align: center;
+  color: #000000;
+  z-index: 50;
 
-background: repeating-linear-gradient(#e1e1e1 1px, white 2px, transparent 32px);
+  background: repeating-linear-gradient(#e1e1e1 1px, white 2px, transparent 32px);
 
-@media screen and (min-width: 768px) {
- font-size: 14px;
- line-height: 216%;  
- letter-spacing: 0.04em; 
- background: repeating-linear-gradient(#e1e1e1 1px, white 2px, transparent 33px);
-}
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 216%;
+    letter-spacing: 0.04em;
+    background: repeating-linear-gradient(#e1e1e1 1px, white 2px, transparent 33px);
+  }
 
-@media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     font-size: 16px;
     line-height: 186%;
-}
+  }
 
-
-
-&::before {
+  &::before {
     position: absolute;
     top: 17px;
     left: 65px;
     content: '';
     background-repeat: no-repeat;
-    background-image: url("../images/Customer-reviews/sign.svg");
+    background-image: url('../images/customer-reviews/sign.svg');
     width: 85px;
     height: 85px;
     z-index: 1;
 
     @media screen and (min-width: 768px) {
-    top: 20px;
-    left: 42px;   
+      top: 20px;
+      left: 42px;
     }
 
     @media screen and (min-width: 1280px) {
-        top:23px;
-        left: 50px;
+      top: 23px;
+      left: 50px;
     }
-}
+  }
 }
 
 .slider {
-    position: relative;
-display: flex;
-justify-content: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .slider__text {
-    position: relative;
-font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 186%;
-text-align: center;
-color: #000000;
+  position: relative;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 186%;
+  text-align: center;
+  color: #000000;
 
-@media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 16px;
-}
+  }
 
-@media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1280px) {
     font-size: 20px;
-}
-
-
-
-// &::before {
-//     width: 4px;
-//     height: 4px;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     content: '';
-    
-//     background-image: url("../image/dots.png");
-//     background-repeat: no-repeat;
-//     background-size: contain;
-//      background-color: #c7133e;
-     
-//     display: inline-block;
-//     z-index: 10;
-// }
-
-// &::after {
-//     position: absolute;
-//     bottom: 0;
-//     right: 0;
-//     content: '';
-//     background-image: url("../image/hr-dots.png");
-//     background-repeat: no-repeat;
-//     width: 12px;
-//     height: 12px;
-// }
+  }
 }
 
 .slider__dots {
-    position: absolute;
+  position: absolute;
 }
 
 .slider__img {
-    position: absolute;
-    bottom: -35px;
+  position: absolute;
+  bottom: -35px;
 }
