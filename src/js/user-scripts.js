@@ -29,3 +29,27 @@
     menuBtnRef.setAttribute('aria-expanded', expanded);
   });
 })();
+
+// Smooth scroll
+$(function () {
+  $('a[href*="#How-it-made"]').on('click', function (e) {
+    $('html,body')
+      .stop()
+      .animate({ scrollTop: $('#How-it-made').offset().top }, 1000);
+    e.preventDefault();
+  });
+
+  $('a[href*="#Products"]').on('click', function (e) {
+    $('html,body')
+      .stop()
+      .animate({ scrollTop: $('#Products').offset().top }, 1000);
+    e.preventDefault();
+  });
+
+  $('a[href*="#Contacts"]').on('click', function (e) {
+    $('html,body')
+      .stop()
+      .animate({ scrollTop: $('#Contacts').offset().top }, 1000);
+    e.preventDefault();
+  });
+});
